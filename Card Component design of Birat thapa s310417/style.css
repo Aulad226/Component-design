@@ -1,0 +1,149 @@
+card{
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body
+{
+  font-family: Roboto, sans-serif;
+  background: #525456;
+}
+h1{
+  color: #fff;
+}
+
+.grid-parent
+{
+    margin: 100px auto 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 3em;
+}
+.top-section2 h1{
+
+  font-family: monospace;
+  font-size: 30px;
+  text-align: center;
+  color: #8eb0ed;
+}
+.top-section2 p{
+  color: white;
+}
+.top-section1 img{
+  height:170px;
+  width: 300px;
+
+
+}
+
+
+
+
+.card-head img{
+
+  max-width:80%;
+  max-height:80%;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+
+
+}
+.card{
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+a{
+  text-decoration: none;
+}
+.card
+{
+  border-radius: 25px;
+  box-shadow: -11px 11px 1px rgba(0,0,0,0.3);
+}
+.card:hover{
+  transform: translate(5%,5%);
+
+}
+.card:hover ul{
+  opacity: 1;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.card-head
+{
+  position: relative;
+  height: 252px;
+  background: #fa782e;
+  background: -moz-linear-gradient(-45deg,  #fa782e 8%, #3e48a0 83%);
+  background: -webkit-linear-gradient(-45deg,  #fa782e 8%,#3e48a0 83%);
+  background: linear-gradient(135deg,  #fa782e 8%,#3e48a0 83%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa782e', endColorstr='#3e48a0',GradientType=1 );
+  border-radius: 25px 25px 0 0;
+}
+
+.card ul{
+  opacity:0;
+  color:white;
+
+}
+
+
+
+
+
+
+.card-body
+{
+  height: 140px;
+  background: #302929;
+  border-radius: 0 0 25px 25px;
+}
+
+.content-title
+{
+  padding: 20px 20px 5px 20px;
+  display: block;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.content-title b
+{
+  font-weight: 900;
+  letter-spacing: 0px;
+  color: white;
+  margin-left: 40px;
+}
+
+
+
+.content-caption
+{
+  display: block;
+  padding: 0 20px;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+
+}
+.content-title b:hover
+{
+  color: #a8b8c4;
+}
+.card-button{
+  transform: translate(120%,20%);
+  margin-top: 10px;
+  background: #34383f;
+  color:white;
+  font-family: monospace;
+}
