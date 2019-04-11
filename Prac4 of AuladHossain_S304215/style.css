@@ -1,0 +1,31 @@
+body{
+background-image: url(003.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.main-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  grid-gap: 2em;
+}
+.card {
+  background-color: #b3c2db;
+  border: 2px solid yellow;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+
+}
+.card img{
+  width: 60%;
+  height:45%;
+
+}
+button{
+  margin-top: 20px;
+}
+.A{
+  background-color: #9be8ae;
+  border-radius: 6px;
+}
